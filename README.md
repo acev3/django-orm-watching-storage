@@ -15,8 +15,10 @@ source <your env>/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-5. Запустить приложение:
+5. Создайте `.env` файл в директории с файлом `settings.py` и запросите у админа нужные креды, для доступа в бд.
+6. Заполните `.env` файл переменными из пункта 5
+7. Запустить приложение:
  ```bash
-python main.py
+python manage.py runserver 0.0.0.0:8000
 ```
 
